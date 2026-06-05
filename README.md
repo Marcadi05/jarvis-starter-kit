@@ -4,6 +4,17 @@
 
 ---
 
+## Project Overview
+
+**Apreneur Market** est la homepage déployée via ce workspace. Il s'agit d'une page vitrine pour le projet IApreneur, accessible à l'adresse : [iapreneur.netlify.app](https://iapreneur.netlify.app)
+
+- **Titre :** Apreneur Market — L'expertise IA, à portée de mission
+- **Type :** Site statique (HTML/CSS)
+- **Déploiement :** Netlify, répertoire `livrables/sites-web`
+- **Propriétaire :** Marc Hardy
+
+---
+
 ## Bienvenue
 
 Ce dossier contient tout ce qu'il faut pour transformer Claude Code en votre véritable assistant personnel. Pas besoin de compétences techniques. Tout est pré-configuré pour vous.
