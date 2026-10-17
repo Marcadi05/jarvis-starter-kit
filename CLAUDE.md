@@ -139,20 +139,17 @@ L'avantage : pas de bruit. Seulement ce qui me concerne vraiment, vu mes objecti
 
 ---
 
-## Démarrage de session
-
-1. Lire `tasks/lessons.md` et appliquer toutes les leçons avant de toucher quoi que ce soit
-2. Lire `tasks/todo.md` pour comprendre l'état actuel
+## DÉMARRAGE DE SESSION
+1. Lire tasks/lessons.md — appliquer toutes les leçons avant de toucher quoi que ce soit
+2. Lire tasks/todo.md — comprendre l'état actuel
 3. Si aucun des deux n'existe, les créer avant de commencer
 
----
-
-## Workflow
+## WORKFLOW
 
 ### 1. Planifier d'abord
 - Passer en mode plan pour toute tâche non triviale (3+ étapes)
-- Écrire le plan dans `tasks/todo.md` avant d'implémenter
-- Si quelque chose ne va pas, STOP et re-planifier. Ne jamais forcer
+- Écrire le plan dans tasks/todo.md avant d'implémenter
+- Si quelque chose ne va pas, STOP et re-planifier — ne jamais forcer
 
 ### 2. Stratégie sous-agents
 - Utiliser des sous-agents pour garder le contexte principal propre
@@ -160,8 +157,8 @@ L'avantage : pas de bruit. Seulement ce qui me concerne vraiment, vu mes objecti
 - Investir plus de compute sur les problèmes difficiles
 
 ### 3. Boucle d'auto-amélioration
-- Après toute correction : mettre à jour `tasks/lessons.md`
-- Format : `[date] | ce qui a mal tourné | règle pour l'éviter`
+- Après toute correction : mettre à jour tasks/lessons.md
+- Format : [date] | ce qui a mal tourné | règle pour l'éviter
 - Relire les leçons à chaque démarrage de session
 
 ### 4. Standard de vérification
@@ -179,27 +176,18 @@ L'avantage : pas de bruit. Seulement ce qui me concerne vraiment, vu mes objecti
 - Aller dans les logs, trouver la cause racine, résoudre
 - Pas besoin d'être guidé étape par étape
 
----
+## PRINCIPES FONDAMENTAUX
+- Simplicité d'abord — toucher un minimum de code
+- Pas de paresse — causes racines uniquement, pas de fixes temporaires
+- Ne jamais supposer — vérifier chemins, APIs, variables avant utilisation
+- Demander une seule fois — une question en amont si nécessaire, ne jamais interrompre en cours de tâche
 
-## Principes fondamentaux
+## GESTION DES TÂCHES
+1. Planifier → tasks/todo.md
+2. Vérifier → confirmer avant d'implémenter
+3. Suivre → marquer comme terminé au fur et à mesure
+4. Expliquer → résumé de haut niveau à chaque étape
+5. Apprendre → tasks/lessons.md après corrections
 
-- **Simplicité d'abord** : toucher un minimum de code
-- **Pas de paresse** : causes racines uniquement, pas de fixes temporaires
-- **Ne jamais supposer** : vérifier chemins, APIs, variables avant utilisation
-- **Demander une seule fois** : une question en amont si nécessaire, ne jamais interrompre en cours de tâche
-
----
-
-## Gestion des tâches
-
-1. **Planifier** → `tasks/todo.md`
-2. **Vérifier** → confirmer avant d'implémenter
-3. **Suivre** → marquer comme terminé au fur et à mesure
-4. **Expliquer** → résumé de haut niveau à chaque étape
-5. **Apprendre** → `tasks/lessons.md` après corrections
-
----
-
-## Apprentissages
-
+## APPRENTISSAGES
 (Claude remplit cette section au fil du temps)
